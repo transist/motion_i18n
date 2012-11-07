@@ -5,14 +5,3 @@ Motion::Project::App.setup do |app|
     app.files.unshift(file)
   end
 end
-
-module I18n
-  def self.set_locale(locale)
-    NSUserDefaults.standardUserDefaults.setObject([locale], forKey: "AppleLanguages")
-    NSUserDefaults.standardUserDefaults.synchronize
-  end
-  
-  def self.current_locale
-    NSLocale.preferredLanguages.objectAtIndex(0)
-  end
-end
