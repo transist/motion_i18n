@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    (main)> I18n.current_locale
+    => "zh-Hans"
+    (main)> I18n.set_locale('en')
+    => true
+    (main)> I18n.current_locale
+    => "en"
 
 ## Contributing
 
