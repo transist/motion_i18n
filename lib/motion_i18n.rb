@@ -4,6 +4,11 @@ Motion::Project::App.setup do |app|
   end
 end
 
-['motion_i18n/version', 'motion_i18n/i18n'].each do |f|
-  require File.join(File.dirname(__FILE__), f)
+module I18n
+  module Locale
+  end
 end
+
+require 'motion_i18n/version'
+require 'motion_i18n/i18n'
+
