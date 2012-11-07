@@ -2,8 +2,6 @@
 
 This is a trivial wrapper for localization in Rubymotion.  You can change locales now.  I'd like to make some generators for adding new languages.
 
-Keep getting uninitialized constant I18n....  Dunno why.  Should be an easy little gem to implement.  Not sure what i'm doing wrong
-
 ## Installation
 
 Add this line to your application's Gemfile:
