@@ -1,4 +1,4 @@
-class I18n
+module I18n
   def self.set_locale(locale)
     NSUserDefaults.standardUserDefaults.setObject([locale], forKey: "AppleLanguages")
     NSUserDefaults.standardUserDefaults.synchronize
