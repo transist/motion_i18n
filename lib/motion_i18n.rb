@@ -3,12 +3,9 @@ Motion::Project::App.setup do |app|
     app.files.unshift(file)
   end
 end
-
 module I18n
   module Locale
   end
 end
 
-require 'motion_i18n/version'
-require 'motion_i18n/i18n'
-
+require 'motion_i18n/locale'

@@ -1,10 +1,10 @@
 module I18n
   module Locale
     def self.set_locale(locale)
-      I18n.unset_locale
+      I18n::Locale.unset_locale
       NSUserDefaults.standardUserDefaults.setObject([locale], forKey: "AppleLanguages")
       NSUserDefaults.standardUserDefaults.synchronize
-      I18n.current_locale
+      I18n::Locale.current_locale
     end
   
     def self.current_locale
