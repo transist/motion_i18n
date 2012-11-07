@@ -4,8 +4,6 @@ Motion::Project::App.setup do |app|
   end
 end
 module I18n
-  module Locale
-  end
 end
 
-require 'motion_i18n/locale'
+require 'motion_i18n/i18n'
