@@ -1,6 +1,6 @@
 # MotionI18n
 
-TODO: Write a gem description
+This is a trivial wrapper for localization in Rubymotion.  You can change locales now.  I'd like to make some generators for adding new languages.
 
 ## Installation
 
