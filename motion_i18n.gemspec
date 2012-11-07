@@ -1,7 +1,5 @@
 # -*- encoding: utf-8 -*-
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'motion_i18n/version'
+require File.expand_path('../lib/motion_i18n/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name          = "motion_i18n"
