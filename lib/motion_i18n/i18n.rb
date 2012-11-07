@@ -9,7 +9,7 @@ module I18n
     NSLocale.preferredLanguages.objectAtIndex(0)
   end
   
-  def self.remove_locale
+  def self.unset_locale
     NSUserDefaults.standardUserDefaults.removeObjectForKey("AppleLanguages")
   end
 end
